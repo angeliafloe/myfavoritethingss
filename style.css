@@ -254,10 +254,39 @@ body {
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background 0.3s ease, transform 0.2s ease;
-  z-index: 10;
+  z-index: 999;
 }
 
 .back-button:hover {
   background: rgb(255, 255, 255);
   transform: translateY(-2px);
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+
+.footerr {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 100;
+  color: #28564f;
+  font-weight: bold;
+  text-align: right;
+  text-shadow: 0 1px 5px #28564f;
+}
+
+
+.footerr p {
+  color: #28564f;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-weight: 1000;
 }
